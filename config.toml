@@ -17,11 +17,11 @@ theme = "meghna-hugo"
     URL = "services"
     weight = 3
 
-    # [[menu.nav]]
-    # name = "Portfolio"
-    # URL = "portfolio"
-    # weight = 4
-    #
+    [[menu.nav]]
+    name = "Use cases"
+    URL = "usecases"
+    weight = 4
+
     # [[menu.nav]]
     # name = "Team"
     # URL = "our-team"
@@ -60,18 +60,17 @@ custom_css = ["css/custom.css"]
     bgImage = "images/slider/hero-area.jpg"
     # icon = "tf-ion-play"
     heading = "DDN Cloud Initiatives"
-    content= "We make cloud computing infrastructures work for your software applications! We are as concerned as you about security, privacy, and the elasticity of your microservice-based software applications."
+    content= "We make cloud computing infrastructures work for your software applications! We are as concerned as you about security, privacy, and the elasticity of your service- and microservice-based software applications."
     btn = true
     btnText="Explore Us"
-    btnURL="#services"
+    btnURL="#services"#team-skills
 
     # call to action
     [params.cta]
     enable = true
     bgImage = "images/slider/hero-area.jpg"
-    title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
+    title = "Do you want to get your cloud solutions right?"
+    btnURL = "#contact-us"
     btnText = "Start a project with us"
 
     # counter

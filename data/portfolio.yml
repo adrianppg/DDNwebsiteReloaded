@@ -1,15 +1,15 @@
 enable : false
 heading : Our
 headingSpan : Works
-filterList :
-  - filterType : photography
-    filterTitle : Photography
-
-  - filterType : design
-    filterTitle : Design
-
-  - filterType : development
-    filterTitle : Development
+# filterList :
+#   - filterType : photography
+#     filterTitle : Photography
+#
+#   - filterType : design
+#     filterTitle : Design
+#
+#   - filterType : development
+#     filterTitle : Development
 
 portfolioItem :
   - types : design
